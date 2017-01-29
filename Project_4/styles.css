@@ -1,0 +1,121 @@
+body {
+    background: #3b3f45;
+    border: 10px solid white;
+    height: 100%;
+    width: calc(100% - 20px);
+    margin: 0;
+    font-family: "Trebuchet MS", Trebuchet, Arial sans-serif;
+}
+header {
+    text-align: center;
+    background: #4a4f56;
+    color: #ea7e7f;
+    height: 90px;
+    /*margin-top:0px;*/
+}
+h1 {
+    font-size: 22px;
+    margin: auto;
+    height: 40px;
+    padding-top: 20px;
+}
+div {
+    background: #3b3f45;
+    margin: 0;
+    height: 100%;
+}
+h1 span {
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+ul {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+    color: #f8f8f2;
+    /*align: center;*/
+}
+li {
+    width: 610px;
+    height: 42px;
+    margin: auto;
+    font-size: 18px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    /*padding: 13px 0 14px;*/
+    /*padding: 15px;*/
+    /*display: block;*/
+}
+li:nth-child(even) {
+    background: #7a7593;
+}
+li:nth-child(odd) {
+    background: #88839e;
+}
+.text-in-li {
+    height: 20px;
+}
+input {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 12px;
+    /*display: none;*/
+    /*margin: 0;*/
+}
+footer {
+    background: #4a4f56;
+    width: 610px;
+    height: 18px;
+    margin: 30px auto 214px;
+    font-size: 18px;
+    padding: 13px 0 13px;
+    text-align: center;
+    color: #ea7e7f;
+}
+/**{transition: all .1s ease-in;}*/
+li:hover {
+    /*border-top:3px solid white ;*/
+    border-color: white ;
+    background: #615f75;
+    /*height: 42px;*/
+    /*padding: 10px 0 10px;*/
+}
+li:active {
+    background: #ea7e7f;
+}
+input:checked+.text-in-li {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.3);
+}
+.text-in-li span {
+    font-size: 13px;
+}
+.text-in-li span:before {
+    content: "(";
+}
+.text-in-li span:after {
+    content: ")";
+}
+.text-in-li {
+    display: inline-block;
+    vertical-align: 4px;
+    margin-top: 11px;
+}
+.text-2 {
+    display: inline-block;
+    vertical-align: 2px;
+}
+.checkbox-1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input:checked +.text-in-li .text-2 {
+    text-decoration: line-through;
+}
+/*.f12 {*/
+    /*height: 60px;*/
+/*}*/
