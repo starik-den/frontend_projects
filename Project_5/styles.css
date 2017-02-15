@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Lucida Sans Unicode", “Lucida Grande”, sans-serif;
+    background: #3399cc;
+    height: 100%;
+    width: calc(100% - 30px);
+    border: solid 15px #2b81ac;
+}
+header {
+    width: 60%;
+    margin: 10px auto;
+    color: white;
+}
+main {
+    width: 60%;
+    height: 400px;
+    border: 3px solid white;
+    margin: 0 auto;
+    /*max-width: 350px;*/
+}
+ul {
+    list-style: none;
+    font-size: 0;
+    height: 100%;
+}
+li {
+    display: inline-block;
+    font-size: 12px;
+    height: 25%;
+    width: 25%;
+    border: 3px solid #f8f8f2;
+    box-sizing: border-box;
+
+}
+/*li[class~='sityname'] {*/
+    /*height: 25%;*/
+.sityname1 {
+    width: 50%;
+    background: #3399cc;
+}
+.sityname2 {
+    width: 25%;
+    background: #33cccc;
+}
+.sityname3 {
+    width: 25%;
+    background: #996699;
+}
+.sityname4 {
+    width: 25%;
+    background: #c24747;
+}
+.sityname5 {
+    width: 25%;
+    background: #e2674a;
+}
+.sityname6 {
+    width: 25%;
+    background: #ffcc66;
+}
+.sityname7 {
+    width: 25%;
+    background: #99cc99;
+}
+.sityname8 {
+    width: 25%;
+    background: #669999;
+}
+.sityname9 {
+    width: 50%;
+    background: #cc6699;
+}
+.sityname10 {
+    width: 25%;
+    background: #339966;
+}
+.sityname11 {
+    width: 100%;
+    background: #666699;
+}
+li div {
+    /*background: gray;*/
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /*display: table-cell;*/
+    /*!**!left: auto;*/
+    /*top: auto;*/
+    /*line-height: 100%;*/
+    /*width: 99%;*/
+    color: white;
+    font-size: 16px;
+    /*margin-top: 22px;*/
+    /*display: table-cell;*/
+    /*height: auto;*/
+    /*text-align: center;*/
+    /*margin-top: 15px;*/
+    /*vertical-align: middle;*/
+}
+ul.all-sity{
+    background: white;
+}
+ul:hover li {
+    /*filter: alf;*/
+    opacity: 0.5;
+}
+[class*='sityname']:hover {
+    /*background: red;*/
+    opacity: 1;
+}
+footer {
+    width: 60%;
+    margin:10px auto 10px;
+    color: white;
+}
+div+div {
+    margin: 0;
+}

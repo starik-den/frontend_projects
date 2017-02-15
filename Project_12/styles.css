@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+.pg {
+    position: relative;
+    width: 876px;
+    height: 627px;
+    background: url("img/bg_t.png") center no-repeat;
+}
+
+.pg:before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#663d97+0,ac71af+100 */
+    background: rgb(102, 61, 151); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(102, 61, 151, 1) 0%, rgba(172, 113, 175, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(102, 61, 151, 1) 0%, rgba(172, 113, 175, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(102, 61, 151, 1) 0%, rgba(172, 113, 175, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#663d97', endColorstr='#ac71af', GradientType=1); /* IE6-9 */
+
+}
+.header {
+    position: relative;
+    height: 41px;
+    width: 100%;
+    padding-top: 6px;
+
+}
+.hederMenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hederMenu {
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+}
+
+.hederMenu li {
+    display: inline-block;
+}
+
+.hederMenu__link1, .hederMenu__link2, .hederMenu__link3, .hederMenu__link4 {
+    text-decoration: none ;
+    font-family: Roboto, sans-serif;
+    color:  #ffffff;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-right: 48px;
+    vertical-align: top;
+}
+
+.hederMenu__link5 {
+    margin-left: 60px;
+    vertical-align: top;
+}
+
+.logo--mod {
+    position: absolute;
+    bottom: 8px;
+    left: 65px;
+    width: 40px;
+    height: 14px;
+}
+
+.hederMenu a:hover {
+    text-decoration: underline;
+}
+
+/*.main {*/
+
+/*background: url("img/bg2.png") center no-repeat;*/
+/*width: 751px;*/
+/*height: 428px;*/
+/*}*/
+.main {
+    background: white;
+    width: 752px;
+    height: 428px;
+    position: relative;
+    z-index: 3;
+    margin: 60px auto 0;
+}
+
+.main:before {
+    position: absolute;
+    background: white;
+    opacity: 0.5;
+    z-index: -1;
+    content: '';
+    display: block;
+    width: 780px;
+    height: 410px;
+    margin: auto;
+    left: -14px;
+    top: 9px;
+}
+
+.main:after {
+    position: absolute;
+    background: white;
+    opacity: 0.5;
+    z-index: -2;
+    content: '';
+    display: block;
+    width: 802px;
+    height: 392px;
+    /*right: 0;*/
+    left: -25px;
+    top: 18px;
+    /*bottom: 0;*/
+    /*margin: auto;*/
+}
+
+.productPreview {
+    height: 100%;
+    width: 502px;
+    background: url("img/bg2.png") center no-repeat;
+    position: relative;
+    background-position: 39px 62px;
+}
+.productPreview:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edeaec+0,f5f5f5+26 */
+    background: rgb(237,234,236); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(237,234,236,1) 0%, rgba(245,245,245,1) 26%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(237,234,236,1) 0%,rgba(245,245,245,1) 26%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(237,234,236,1) 0%,rgba(245,245,245,1) 26%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeaec', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+}
+
+.productPreview__img {
+    position: absolute;
+    left:44px;
+    top:94px;
+}
+.productPreview__text {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-family:  Roboto, sans-serif;
+    font-size: 78px;
+    color: white;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-top: 70px;
+    letter-spacing: 0.05em;
+}
+.productPreview__model {
+    position: absolute;
+    width: 100%;
+    left: 5px;
+    bottom: 24px;
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.productPreview__model1, .productPreview__model2, .productPreview__model3 {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.aboutProduct {
+    width: calc(100% - 502px);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.productPreview__model :last-child {
+    margin-right: 0;
+}
+
+.close__btn {
+    border: none;
+    background: none;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+}
+
+.close {
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 13px;
+}
+
+.aboutProduct__item1 {
+    background-color:  #ffa60d;
+    width: 42px;
+    height: 24px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 31px;
+}
+
+.aboutProduct__item2 {
+    /*width: 172px;*/
+    /*height: 46px;*/
+    font-family: Roboto, sans-serif;
+    color:  #000000;
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-top: 6px;
+    padding-left: 29px;
+    width: 197px;
+}
+.aboutProduct__item2--color {
+    color:  #5e4fff;
+}
+
+.rating {
+    display: inline-block;
+    direction: rtl;
+    vertical-align: middle;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    /*width: 1.1em;*/
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.aboutProduct__item3 {
+    margin-top: 6px;
+    padding-left: 31px;
+}
+
+.aboutProduct__item3--text {
+    font-family: Roboto, sans-serif;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+.aboutProduct__price {
+    font-family: Roboto, sans-serif;
+    color: #000000;
+    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: left;
+    margin-top: 11px;
+    margin-left: 31px;
+}
+
+.aboutProduct__size {
+    font-family: Roboto, sans-serif;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 32px;
+
+}
+
+.aboutProduct__item7{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 118px;
+    height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 32px;
+    margin-left: 31px;
+}
+
+.aboutProduct__item8{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0f0f0f;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 118px;
+    height: 30px;
+    text-align: center;
+    margin-top: 4px;
+    margin-left: 31px;
+}
+
+.aboutProduct__card {
+    text-decoration: none;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+
+}
+.aboutProduct__wishlist {
+    text-decoration: none;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+
+}
+
+.aboutProduct__item7:hover{
+    background-color:  #a200b8;
+    color:  #ffffff;
+}
+
+.aboutProduct__item7:hover a{
+    color:  #ffffff;
+}
+
+.aboutProduct__item8:hover {
+    background-color: #a200b8;
+}
+
+.aboutProduct__item8:hover a {
+    color:  #ffffff;
+}
+
+
+/*Управление размерами*/
+.aboutProduct__selectSize {
+    list-style: none;
+    margin-top: 2px;
+    padding: 0 0 0 22px;
+    font-size: 0;
+
+}
+
+.aboutProduct__size1, .aboutProduct__size2, .aboutProduct__size3, .aboutProduct__size4, .aboutProduct__size5{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 17px;
+    text-align: center;
+    /*vertical-align: middle;*/
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+.aboutProduct__selectSize span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    color:  #000000;
+    font-size: 14px;
+    box-sizing: border-box;
+
+}
+
+.active-radio {
+    display: none;
+}
+input:checked+span{
+    border: 1px solid black;
+}
+/*Управление размерами*/
