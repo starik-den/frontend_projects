@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400,700,900');
+html {
+    background: #eeeeee;
+}
+header {
+    width: 1200px;
+    margin: 50px auto;
+    position: relative;
+}
+main {
+    width: 1200px;
+    /*max-height: 1200px;*/
+    background: #ffffff;
+    margin: 100px auto 92px;
+    padding-top: 103px;
+    padding-bottom: 73px;
+}
+.slogan {
+    position: relative;
+    margin-top: 79px;
+    font-size: 0;
+}
+.first-line {
+    display: inline-block;
+    left: 50px;
+}
+.menu {
+    display: inline-block;
+    position: absolute;
+    right: -15px;
+    margin-top: 20px;
+}
+.head-text {
+    display: inline-block;
+    width: 615px;
+}
+.head-img {
+    display: inline-block;
+    position: absolute;
+    right: 117px;
+    /*margin-right: 117px;*/
+    margin-top: 13px;
+}
+span.title {
+    font-size: 48px;
+}
+.menu a {
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #707070;
+    /*margin-right: 60px;*/
+}
+.menu :first-child {
+    margin-right: 50px;
+}
+.menu :last-child {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1em;
+}
+span.top-text {
+    font-size: 150px;
+}
+span.top-info {
+    line-height: 1.6;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 28px;
+    letter-spacing: 0.03em;
+}
+.top-info span {
+    color: #e10011;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 16px;
+    letter-spacing: 0.07em;
+}
+.head-text span {
+    display: block;
+}
+.top-info {
+    text-align: right;
+}
+.slider {
+    text-align: center;
+    margin-top: 79px;
+}
+.text-content span {
+    display: block;
+    text-align: center;
+}
+.content1 {
+    font-size: 48px;
+    /*line-height: 3.125;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+.content2 {
+    background:  url("img/underline.png") no-repeat;
+    background-position: 202px 6px;
+    font-size: 17px;
+    line-height: 1.33;
+    width: 615px;
+    margin: 0 auto 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    /*margin-top: 0;*/
+    padding-top: 36px;
+}
+.img-content {
+    font-size: 0;
+    padding-top: 37px;
+}
+.img-content div {
+    /*background: #ededed;*/
+    display: inline-block;
+    border-radius: 10px;
+    /*font-size: 0;*/
+}
+.for-bg1, .for-bg2,.for-bg3,.for-bg4,.for-bg5 {
+    background: #ededed;
+}
+.img-content .img1 {
+    background: url("img/speaker-pill-white-standard-thrqrtleft.png") no-repeat;
+    width: 695px;
+    height: 388px;
+    background-position: -102px -70px;
+    /*opacity: 0.5;*/
+}
+[class*="for"]:hover div[class*="img"]  {
+background: red;
+}
+.img-content .img2 {
+    background: url("img/beats-by-dre-studio-red-highdefinition-headphones.png") no-repeat;
+    width: 327px;
+    height: 388px;
+    background-position: 35px -69px;
+}
+.img-content .img3 {
+    background: url("img/Untitled-1.png") no-repeat;
+    width: 328px;
+    height: 387px;
+    /*background-position: 5px 5px;*/
+
+}
+.img-content .img4 {
+    background: url("img/Rectangle 3 copy.png") no-repeat;
+    width: 328px;
+    height: 387px;
+    /*background-position: 5px 5px;*/
+}
+.img-content .img5 {
+    background: url("img/tumblr_nko8p7po0T1qddxjwo3_1280.png") no-repeat;
+    width: 328px;
+    height: 387px;
+    background-position: -131px -23px;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.top-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.01em;
+    line-height: 1;
+
+}
+.head-text {
+    margin-top: 10px;
+}
+.for-bg1 {
+    margin-left: 70px;
+    position: relative;
+}
+.for-bg2 {
+    margin-left: 36px;
+    position: relative;
+}
+.for-bg3 {
+    margin-left: 70px;
+    margin-top: 30px;
+    position: relative;
+}
+.for-bg4 {
+    margin-left: 33px;
+    position: relative;
+}
+.for-bg5 {
+    margin-left: 40px;
+    position: relative;
+}
+.news span {
+    display: block;
+    text-align: center;
+}
+.pre-footer2 {
+    width: 551px;
+    margin: 10px auto;
+    /*height: 42px;*/
+}
+.pre-footer1 {
+    font-family: 'Raleway', sans-serif;
+    color: #303030;
+    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    /*line-height: 150px; !* Приближение из-за подстановки шрифтов *!*/
+    text-align: center;
+}
+.pre-footer2 {
+    font-family: 'Raleway', sans-serif;
+    color: #303030;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.social-site div {
+    display: inline-block;
+    /*border-radius: 50%;*/
+}
+.social-site {
+    margin: 115px auto 10px;
+    width: 340px;
+    font-size: 0;
+}
+.ss-img img {
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 0.04em;
+    margin-bottom: 35px;
+}
+.footsp1 {
+    font-family: 'Raleway', sans-serif;
+    color: #979797;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.footsp2 {
+    font-family: 'Raleway', sans-serif;
+    color: #303030;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.search {
+    margin: 35px auto 10px;
+    /*text-align: center;*/
+    width: 702px;
+    height: 70px;
+    background-color:  #ffffff;
+    /*position: relative;*/
+    border-radius: 35px;
+}
+input {
+    display: inline-block;
+    width: 429px;
+    height: 100%;
+    /*position: absolute;*/
+    /*left: 0;*/
+    box-sizing: border-box;
+    border: none;
+    border-radius: 35px;
+    padding:0 0 0 60px;
+    font-family: 'Raleway', sans-serif;
+    color: #979797;
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    font-style: italic;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    background: url("img/mail.png") no-repeat;
+    background-position: 29px 29px;
+    vertical-align: middle;
+
+}
+button {
+    float: right;
+    display: inline-block;
+    /*position: absolute;*/
+    /*right: 0;*/
+    height: 100%;
+    width: 208px;
+    border: none;
+    border-radius: 0 35px 35px 0;
+    background: #e10011;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+        /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    /*text-align: right;*/
+    /*font-family: FontAwesome;*/
+    /*color: #ffffff;*/
+    /*font-size: 18px; !* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 400;*/
+    /*text-align: right;*/
+
+}
+.angle {
+    display: inline-block;
+    vertical-align: middle;
+    border: 6px solid transparent;	border-left: 6px solid #ffffff;
+}
+.button {
+    vertical-align: middle;
+}
+.social-site div {
+    margin-left: 19px;
+    /*border-radius: 50%;*/
+}
+.social-site :first-child {
+    margin-left: 0;
+}
+/*Работа над ссылкой по hover*/
+.img-content a {
+    /*font-size: 20px;*/
+    position: absolute;
+    display: block;
+    width: 223px;
+    height: 65px;
+    left: 0;
+    bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 30px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: right;
+    text-decoration: none;
+    opacity: 0;
+}
+a span {
+    text-decoration: underline;
+}
+[class*="for"]:hover a {
+    opacity: 1;
+}
+/*Работа над ссылкой по hover*/
