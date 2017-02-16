@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 
+.body {
+    width: 100%;
+    height: 100%;
+    background: #663d97;
+    background: -moz-linear-gradient(left, #51327b 0%, #51327b 32%, #895a8d 68%, #895a8d 100%);
+    background: -webkit-linear-gradient(left, #51327b 0%, #51327b 32%, #895a8d 68%, #895a8d 100%);
+    background: linear-gradient(to right, #51327b 0%, #51327b 32%, #895a8d 68%, #895a8d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#663d97', endColorstr='#ac71af',GradientType=1 );
+;
+}
 .pg {
+    margin: 0 auto;
     position: relative;
     width: 876px;
     height: 627px;
