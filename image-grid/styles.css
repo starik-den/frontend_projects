@@ -8,10 +8,13 @@
 
 
 /*Сетка---------------------------------------------*/
+body {
+    min-width: 800px;
+}
 .row, .main5, .main6 {
     font-size: 0;
     max-width: 1300px;
-    min-width: 820px;
+    /*min-width: 820px;*/
     margin: 0 auto;
     /*padding: 0 80px;*/
     /*padding-left: 80px;*/
@@ -36,9 +39,13 @@
 }
 
 .col4 {
-    display: inline-block;
-    /*width: 25%;*/
+    /*display: inline-block;*/
+    width: 23.5%;
+    margin-right: 2%;
     /*width: calc((100% - 160px) / 4);*/
+}
+.col4:last-child {
+    margin-right: 0;
 }
 
 p {
@@ -51,6 +58,10 @@ p {
 
 .row div:first-child {
     padding-left: 80px;
+}
+
+.row.main5 div, .row.main6 div {
+    padding: 0;
 }
 
 /*Сетка---------------------------------------------*/
@@ -74,6 +85,7 @@ p {
 
 main {
     max-width: 1300px;
+    /*min-width: 800px;*/
     margin: 0 auto;
 }
 main .row:first-child {
@@ -156,16 +168,19 @@ main .row:nth-child(n) {
 }
 
 .main6, .main5 {
-    padding-left: 80px;
+    padding: 0 80px;
 }
 
 .main5 {
     margin: 30px 0;
 }
-.col4 {
-    text-align: center;
-    padding: 0 2.5% 0 0!important;
-
+/*.col4 {*/
+    /*text-align: center;*/
+    /*padding: 0 2.5% 0 0!important;*/
+/**/
+/*}*/
+img {
+    width: 100%;
 }
 .col4:first-child {
     text-align: right;
@@ -395,8 +410,8 @@ main .row:nth-child(n) {
 /*Footer--------------------------------------------------*/
 .footer {
     background: #7beec7;
-    height: 330px;
-    padding-top: 50px;
+    min-height: 330px;
+    padding: 50px 0 20px 0;
     margin-top: 30px;
 }
 
