@@ -16,14 +16,18 @@ html {
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    text-align: center; }
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0; }
   .header__txt2 {
     font-family: Arial, sans-serif;
     color: #ffcc00;
     font-size: 60px;
     font-weight: 900;
-    line-height: 66px;
-    text-align: center; }
+    line-height: 1;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px; }
 
 .main {
   text-align: center;
@@ -247,5 +251,50 @@ html {
     text-align: left; }
   .btn:hover {
     background: #fff0b3; }
+
+.slider {
+  text-align: center;
+  font-size: 0;
+  margin-top: 40px;
+  margin-bottom: 90px; }
+  .slider__items1 {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: transparent;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+    background: #ffcc00; }
+    .slider__items1:hover {
+      background: white;
+      border-color: #ffcc00; }
+  .slider__items2 {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: transparent;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+    background: #ffcc00; }
+    .slider__items2:hover {
+      background: white;
+      border-color: #ffcc00; }
+  .slider__items3 {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: transparent;
+    border-style: solid;
+    width: 10px;
+    height: 10px;
+    background: #ffcc00; }
+    .slider__items3:hover {
+      background: white;
+      border-color: #ffcc00; }
 
 /*# sourceMappingURL=styles.css.map */
