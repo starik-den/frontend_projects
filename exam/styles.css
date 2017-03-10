@@ -252,6 +252,9 @@
   background: none;
   display: block;
   margin: 80px auto; }
+  .btn-more:hover {
+    -webkit-box-shadow: 0 0 6px 2px #222222;
+    box-shadow: 0 0 6px 2px #222222; }
 
 .btn-more__link {
   font-family: "Lato", Arial, sans-serif;
@@ -379,5 +382,8 @@
   font-weight: 400;
   text-align: center;
   text-transform: uppercase; }
+  .btn:hover {
+    -webkit-box-shadow: 0 0 6px 2px #eaeaea;
+    box-shadow: 0 0 6px 2px #eaeaea; }
 
 /*# sourceMappingURL=styles.css.map */

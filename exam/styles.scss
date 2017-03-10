@@ -283,6 +283,10 @@ $top-color: #222222;
     background: none;
   display: block;
   margin: 80px auto;
+  &:hover {
+    -webkit-box-shadow: 0 0 6px 2px #222222;
+    box-shadow: 0 0 6px 2px #222222;
+  }
 }
 .btn-more__link {
   font-family: $font-face-lt;
@@ -418,6 +422,10 @@ $top-color: #222222;
   //line-height: 60px;
   text-align: center;
   text-transform: uppercase;
+  &:hover {
+    -webkit-box-shadow: 0 0 6px 2px #eaeaea;
+    box-shadow: 0 0 6px 2px #eaeaea;
+  }
 }
 //.menu-mini__menu
 //header
