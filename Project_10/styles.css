@@ -193,6 +193,7 @@ ul.menu-5-items li:hover a {
 
 /*Стили меню 2*/
 /*Стили main*/
+
 main {
     margin:51px auto 98px;
     position: relative;
@@ -229,7 +230,7 @@ position: absolute;
     /*position: absolute;*/
     left: 0;
     bottom: 0;
-    background: url("img/app.png") no-repeat;
+    background: url("img/app.png") no-repeat -60px;
     width: 450px;
     height: 486px;
     /*position: relative;*/
@@ -302,11 +303,11 @@ position: absolute;
 }
 .about3 button {
     background: none;
-    color: #3c4955;
+    color: white;
     border-radius: 5px;
     text-transform: uppercase;
     margin: 40px auto 0;
-    border: 2px solid #3c4955;
+    border: 2px solid white;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 700;
