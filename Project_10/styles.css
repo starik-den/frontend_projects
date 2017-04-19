@@ -196,20 +196,21 @@ ul.menu-5-items li:hover a {
 
 main {
     margin:51px auto 98px;
-    position: relative;
+    /*position: relative;*/
     height: 828px;
     /*width: 100%;*/
     width: 1140px;
 }
 
 main div {
-position: absolute;
+/*position: absolute;*/
     border-radius: 10px;
+    background-size: cover;
 }
 .main-img1 {
     /*position: absolute;*/
-    left: 0;
-    top: 0;
+    /*left: 0;*/
+    /*top: 0;*/
     background: url("img/multiple items.png") no-repeat;
     width: 450px;
     height: 302px;
@@ -218,8 +219,8 @@ position: absolute;
 
 .main-img2 {
     /*position: absolute;*/
-    right: 0;
-    top: 0;
+    /*right: 0;*/
+    /*top: 0;*/
     background: url("img/identité visuelle.png") no-repeat;
     width: 650px;
     height: 438px;
@@ -228,8 +229,8 @@ position: absolute;
 
 .main-img3 {
     /*position: absolute;*/
-    left: 0;
-    bottom: 0;
+    /*left: 0;*/
+    /*bottom: 0;*/
     background: url("img/app.png") no-repeat -60px;
     width: 450px;
     height: 486px;
@@ -238,8 +239,8 @@ position: absolute;
 
 .main-img4 {
     /*position: absolute;*/
-    right: 0;
-    bottom: 0;
+    /*right: 0;*/
+    /*bottom: 0;*/
     background: url("img/prototype.png") no-repeat;
     width: 650px;
     height: 350px;
@@ -596,5 +597,37 @@ footer {
     background: #3c4955 url("img/Untitled-2.png") no-repeat;
     background-position: -177px center;
 }
+
+/* ---- grid ---- */
+
+.grid {
+    /*background: #DDD;*/
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+/* 5 columns, percentage width */
+.grid-item,
+.grid-sizer {
+    width: 20%;
+}
+
+.grid-item {
+    float: left;
+    height: 300px;
+    /*background: #0D8;*/
+    /*border: 2px solid #333;*/
+    /*border-color: hsla(0, 0%, 0%, 0.7);*/
+}
+
+.grid-item--width2 { width: 40%; }
+.grid-item--height2 { height: 600px; }
 
 /*Стили футера*/
