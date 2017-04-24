@@ -2,7 +2,7 @@
 ;(function () {
     window.onload = function () {
         var map,
-            point = {lat: 48.734294, lng: 37.579304},
+            point = {lat: 47.138176, lng: 37.560537},
             iv1Content = document.querySelector('.info-window');
 
         function initMap() {
@@ -53,140 +53,39 @@
 
 //slider2
 //filter
-    function click() {
-        $(this).children('.flag').addClass('flag--active');
-        $(this).siblings().children('.flag').removeClass('flag--active')
+    function click(a) { //for control active of flag
+        a.children('.flag').addClass('flag--active');
+        a.siblings().children('.flag').removeClass('flag--active')
     }
-    function workPrint() {
-        var a = $(this);
-        a.parent('ul')
-               .siblings('.works')
-               .children('.works__branding')
-               .children('.works__filter')
-               .addClass('works__filter--active');
-        a.parent('ul')
-               .siblings('.works')
-               .children('.works__web')
-               .children('.works__filter')
-               .addClass('works__filter--active');
+    function workFilter() { //gray block up
+        var a = $(this),
+            b = a.data('name'); //get data attr (print, brand, web, html)
+        click(a);
         a.parent('ul')
             .siblings('.works')
-            .children('.works__html')
-            .children('.works__filter')
+            .find('.works__filter')
             .addClass('works__filter--active');
-        a.parent('ul')
+        a.parent('ul') //del gray block for current category
             .siblings('.works')
-            .children('.works__print')
-            .children('.works__filter')
-            .removeClass('works__filter--active')
-    }
-
-    function workBranding() {
-        var a = $(this);
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__branding')
-            .children('.works__filter')
+            .children('.works__' + b) //dynamic change of class (.works__print)
+            .find('.works__filter')
             .removeClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__web')
-            .children('.works__filter')
-            .addClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__html')
-            .children('.works__filter')
-            .addClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__print')
-            .children('.works__filter')
-            .addClass('works__filter--active')
-    }
-
-    function workWeb() {
-        var a = $(this);
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__web')
-            .children('.works__filter')
-            .removeClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__branding')
-            .children('.works__filter')
-            .addClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__html')
-            .children('.works__filter')
-            .addClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__print')
-            .children('.works__filter')
-            .addClass('works__filter--active')
-    }
-
-    function workHtml() {
-        var a = $(this);
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__html')
-            .children('.works__filter')
-            .removeClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__branding')
-            .children('.works__filter')
-            .addClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__web')
-            .children('.works__filter')
-            .addClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__print')
-            .children('.works__filter')
-            .addClass('works__filter--active')
     }
 
     function allWorks() {
         var a = $(this);
+        click(a);
         a.parent('ul')
             .siblings('.works')
-            .children('.works__html')
-            .children('.works__filter')
+            .find('.works__filter')
             .removeClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__branding')
-            .children('.works__filter')
-            .removeClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__web')
-            .children('.works__filter')
-            .removeClass('works__filter--active');
-        a.parent('ul')
-            .siblings('.works')
-            .children('.works__print')
-            .children('.works__filter')
-            .removeClass('works__filter--active')
     }
+    $('.filter__item1').on('click', allWorks);
+    $('.filter__item2').on('click', workFilter);
+    $('.filter__item3').on('click', workFilter);
+    $('.filter__item4').on('click', workFilter);
+    $('.filter__item5').on('click', workFilter);
 
-    $('.filter__item1').on('click', allWorks)
-        .on('click', click);
-    $('.filter__item2').on('click', workPrint)
-        .on('click', click);
-    $('.filter__item3').on('click', workBranding)
-        .on('click', click);
-    $('.filter__item4').on('click', workWeb)
-        .on('click', click);
-    $('.filter__item5').on('click', workHtml)
-        .on('click', click);
 //filter
 //fly scroll
     $('.fly').click(function(){
