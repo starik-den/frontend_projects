@@ -1,0 +1,83 @@
+//google maps
+;(function () {
+    window.onload = function () {
+        var map,
+            point = {lat: 47.138176, lng: 37.560537},
+            iv1Content = document.querySelector('.info-window');
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: point,
+                zoom: 17,
+                disableDefaultUI: true
+            });
+
+            var marker = new google.maps.Marker({
+                position: point,
+                map: map,
+                icon: 'img/favicon.png'
+            });
+
+            var infowindow = new google.maps.InfoWindow({
+                content: iv1Content
+            });
+            marker.addListener('click', function () {
+                infowindow.open(map, marker);
+                iv1Content.style.opacity = 1;
+            });
+        }
+
+        initMap();
+    }
+})();
+//google maps
+//slider1
+;(function ($) {
+    $(function () {
+        $('.works__slider').slick({
+            arrows: true,
+            autoplay: false,
+            dots: true,
+            responsive: [
+
+                {
+                    breakpoint: 480,
+                    settings: {
+                        // slidesToShow: 1,
+                        // slidesToScroll: 1
+                        arrows: false
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    });
+//slider1
+//slider2
+    $(function () {
+        $('.team__slider').slick({
+            arrows: true,
+            // autoplay: true,
+            // speed: 1500,
+            dots: false,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    });
+
+//slider2
+
+//fly scroll
+    $('.fly').click(function(){
+//Сохраняем значение атрибута href в переменной:
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 800);
+        return false;
+    });
+
+//fly scroll
+})(jQuery);
+
