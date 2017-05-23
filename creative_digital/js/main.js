@@ -41,7 +41,7 @@
             responsive: [
 
                 {
-                    breakpoint: 480,
+                    breakpoint: 769,
                     settings: {
                         // slidesToShow: 1,
                         // slidesToScroll: 1
@@ -64,7 +64,42 @@
             dots: false,
             infinite: true,
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 3,
+            // adaptiveHeight: true,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        infinite: true,
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 770,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        infinite: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                        // adaptiveHeight: true
+
+                    }
+                },
+                {
+                    breakpoint: 430,
+                    settings: {
+                        arrows: false,
+                        dots: false,
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     });
 
@@ -79,5 +114,19 @@
     });
 
 //fly scroll
+//height of window
+//     function heightWatch () {
+//         var winHeight = $(window).height();
+//         console.log(winHeight);
+//         if (winHeight < 900){
+//             $('.map-form').addClass('map-form--small-height');
+//             console.log("add class")
+//         }
+//         else {
+//             console.log("not add class")
+//         }
+//     }
+//     heightWatch();
+//height of window
 })(jQuery);
 

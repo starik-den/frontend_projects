@@ -59,6 +59,10 @@
     </div>
 </header>
 <main class="main" id="about">
+    <div class="container about--mob">
+        <img src="img/about_mob.png" alt="ico" class="works__img">
+        <h2 class="team_title">About Us</h2>
+    </div>
     <div class="about container">
         <a href="#" class="about__pic">
             <img src="img/Icon-AboutUs.svg" alt="ico">
@@ -413,9 +417,11 @@
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
-        <form class="form">
+        <div class="contact__title">
             <img src="img/mark.png" alt="mark" class="marker">
             <h2 class="works_title map__txt">GET IN TOUCH</h2>
+        </div>
+        <form class="form">
 
             <div class="info">
                 <div class="name">
@@ -434,6 +440,25 @@
             <button class="btn" type="submit">SEND MESSAGE</button>
         </form>
     </div>
+    <form class="form--small">
+
+        <div class="info">
+            <div class="name">
+                <label for="name"></label> <input placeholder="Your Name *" name="name" id="name" type="text"
+                                                  class="inp-name">
+            </div>
+            <div class="email">
+                <label for="email"></label> <input class="inp-email" placeholder="Your Email *" name="email"
+                                                   id="email" type="email"></div>
+        </div>
+        <div class="message">
+            <label for="description"></label><textarea class="inp-message" placeholder="Your Message *"
+                                                       name="description" id="description" cols="70"
+                                                       rows="1"></textarea>
+        </div>
+        <button class="btn" type="submit">SEND MESSAGE</button>
+    </form>
+
     <div class="copy">
         <div class="container">
             <span class="copy__txt">©2014 tulusdriyo. All Rights Reserved.</span>
