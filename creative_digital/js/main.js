@@ -118,7 +118,7 @@
     function heightWatch () {
         var winHeight = $(window).height();
         console.log(winHeight);
-        if (winHeight < 550){
+        if (winHeight < 400){
             $('.contact').addClass('contact--none');
             console.log("add class")
         }
