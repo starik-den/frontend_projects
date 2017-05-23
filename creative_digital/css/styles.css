@@ -716,6 +716,9 @@ li.none {
   .contact:hover {
     width: 350px; }
 
+.contact--none {
+  display: none; }
+
 .tohome {
   font-size: 0;
   height: 90px;

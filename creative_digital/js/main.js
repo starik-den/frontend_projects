@@ -115,18 +115,19 @@
 
 //fly scroll
 //height of window
-//     function heightWatch () {
-//         var winHeight = $(window).height();
-//         console.log(winHeight);
-//         if (winHeight < 900){
-//             $('.map-form').addClass('map-form--small-height');
-//             console.log("add class")
-//         }
-//         else {
-//             console.log("not add class")
-//         }
-//     }
-//     heightWatch();
+    function heightWatch () {
+        var winHeight = $(window).height();
+        console.log(winHeight);
+        if (winHeight < 550){
+            $('.contact').addClass('contact--none');
+            console.log("add class")
+        }
+        else {
+            $('.contact').removeClass('contact--none');
+            console.log("not add class")
+        }
+    }
+    $(window).resize(heightWatch);
 //height of window
 })(jQuery);
 
