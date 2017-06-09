@@ -120,11 +120,11 @@
         console.log(winHeight);
         if (winHeight < 400){
             $('.contact').addClass('contact--none');
-            console.log("add class")
+            // console.log("add class")
         }
         else {
             $('.contact').removeClass('contact--none');
-            console.log("not add class")
+            // console.log("not add class")
         }
     }
     $(window).resize(heightWatch);
