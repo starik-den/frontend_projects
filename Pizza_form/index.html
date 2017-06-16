@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="menu">
+    <p class="menu__title">Пицца на любой вкус</p>
+    <div class="menu__pizza" data-index="1">
+        <img src="img/vegitariana.png" alt="" class="pizza__img">
+        <span class="pizza__name">вегетарианская</span>
+        <span class="pizza__price">335<img src="img/rubl.png" alt="Рублей" class="money-symbol"></span>
+
+        <span class="pizza__composition">Вегетарианская Свежий шпинат, сладкая кукуруза, смешанные перец, красный лук и грибы</span>
+        <div class="pizza__size">
+            <a class="small__link fly" href="#form">на 1 человек</a>
+            <a class="middle__link fly" href="#form">на 2 человек</a>
+            <a class="large__link fly" href="#form">на 3 человек</a>
+        </div>
+    </div>
+    <div class="menu__pizza" data-index="2">
+        <img src="img/suprim.png" alt="" class="pizza__img">
+        <span class="pizza__name">суприм</span>
+        <span class="pizza__price">335<img src="img/rubl.png" alt="Рублей" class="money-symbol"></span>
+
+        <span class="pizza__composition">Курица, черные оливки, говядина, пепперони, красный лук и смешанные перец.</span>
+        <div class="pizza__size">
+            <a class="small__link fly" href="#form">на 1 человек</a>
+            <a class="middle__link fly" href="#form">на 2 человек</a>
+            <a class="large__link fly" href="#form">на 3 человек</a>
+        </div>
+    </div>
+    <div class="menu__pizza" data-index="3">
+        <img src="img/gavaya.png" alt="" class="pizza__img">
+        <span class="pizza__name">гавайская</span>
+        <span class="pizza__price">335<img src="img/rubl.png" alt="Рублей" class="money-symbol"></span>
+
+        <span class="pizza__composition">Свежий шпинат, смешанные перец, красный лук, грибы и помидоры черри.</span>
+        <div class="pizza__size">
+            <a class="small__link fly" href="#form">на 1 человек</a>
+            <a class="middle__link fly" href="#form">на 2 человек</a>
+            <a class="large__link fly" href="#form">на 3 человек</a>
+        </div>
+    </div>
+    <div class="menu__pizza" data-index="4">
+        <img src="img/vegitariana.png" alt="" class="pizza__img">
+        <span class="pizza__name">вегетарианская</span>
+        <span class="pizza__price">435<img src="img/rubl.png" alt="Рублей" class="money-symbol"></span>
+
+        <span class="pizza__composition">Вегетарианская Свежий шпинат, сладкая кукуруза, смешанные перец, красный лук и грибы</span>
+        <div class="pizza__size">
+            <a class="small__link fly" href="#form">на 1 человек</a>
+            <a class="middle__link fly" href="#form">на 2 человек</a>
+            <a class="large__link fly" href="#form">на 3 человек</a>
+        </div>
+    </div>
+    <div class="menu__pizza" data-index="5">
+        <img src="img/suprim.png" alt="" class="pizza__img">
+        <span class="pizza__name">суприм</span>
+        <span class="pizza__price">435<img src="img/rubl.png" alt="Рублей" class="money-symbol"></span>
+
+        <span class="pizza__composition">Курица, черные оливки, говядина, пепперони, красный лук и смешанные перец.</span>
+        <div class="pizza__size">
+            <a class="small__link fly" href="#form">на 1 человек</a>
+            <a class="middle__link fly" href="#form">на 2 человек</a>
+            <a class="large__link fly" href="#form">на 3 человек</a>
+        </div>
+    </div>
+    <div class="menu__pizza" data-index="6">
+        <img src="img/gavaya.png" alt="" class="pizza__img">
+        <span class="pizza__name">гавайская</span>
+        <span class="pizza__price">435<img src="img/rubl.png" alt="Рублей" class="money-symbol"></span>
+
+        <span class="pizza__composition">Свежий шпинат, смешанные перец, красный лук, грибы и помидоры черри.</span>
+        <div class="pizza__size">
+            <a class="small__link fly" href="#form">на 1 человек</a>
+            <a class="middle__link fly" href="#form">на 2 человек</a>
+            <a class="large__link fly" href="#form">на 3 человек</a>
+        </div>
+    </div>
+</div>
+<div class="order">
+    <p class="order__title">Форма заказа</p>
+    <p class="order__txt">Мы перезвоним Вам для получения более подробной информации</p>
+    <form id="form" class="form" method="get">
+        <div class="wrapper-select">
+            <div class="selekt container col-33">
+                <div>
+                    <label class="select__txt" for="sort">Выберите пиццу</label>
+                    <select class="select-style" id="sort" name="pizza-name">
+                        <option value="don't_select">Сделайте свой выбор</option>
+                        <option data-price="335" value="Вегитарианская_335">Вегитарианская 335Р</option>
+                        <option data-price="335" value="Суприм_335">Суприм 335Р</option>
+                        <option data-price="335" value="Гавайская_335">Гавайская 335Р</option>
+                        <option data-price="435" value="Вегитарианская_435">Вегитарианская 435Р</option>
+                        <option data-price="435" value="Суприм_435">Суприм 435Р</option>
+                        <option data-price="435" value="Вегитарианская_435">Гавайская 435Р</option>
+                    </select></div>
+                <div class="container description">
+                    <span class="desc-txt description__sort"></span>
+                </div>
+            </div>
+            <div class="size container col-33">
+                <div><label class="select__txt" for="size">Размер</label>
+                    <select class="select-style" id="size" name="pizza-size">
+                        <option data-size="0" value="don't_select">Сделайте свой выбор</option>
+                        <option data-size="0.75" value="Мини">Мини 15см (4 кусочка)</option>
+                        <option data-size="1" value="Стандарт">Стандарт 25см (6 кусочков)</option>
+                        <option data-size="1.25" value="Большая">Большая 35см (8 кусочков)</option>
+                    </select></div>
+                <div class="container description">
+                    <span class="desc-txt description__size"></span>
+                </div>
+            </div>
+            <div class="quantity container col-33">
+                <div><label class="select__txt" for="quantity">Количество</label>
+                    <select class="select-style" id="quantity" name="pizza-quantity">
+                        <option value="don't_select">Сделайте свой выбор</option>
+                        <option value="1">1 Пицца</option>
+                        <option value="2">2 Пиццы</option>
+                        <option value="3">3 Пиццы</option>
+                        <option value="4">4 Пиццы</option>
+                        <option value="5">5 Пицц</option>
+                    </select></div>
+                <div class="container description">
+                    <span class="desc-txt description__quantity"></span>
+                </div>
+            </div>
+        </div>
+        <div class="total-price container col-25">
+            <span class="total-price__title">Всего</span>
+            <span class="order-cost">0
+            </span><img src="img/big-rubl.png" alt="Рублей" class="big-money-symbol">
+        </div>
+        <div class="wrapper-client-data">
+            <div class="client-data container col-25">
+                <input class="input-style" type="text" name="name" placeholder="ваше имя">
+            </div>
+            <div class="client-data container col-25">
+                <input class="input-style" type="tel" name="phone" placeholder="ваш телефон">
+            </div>
+            <div class="client-data container col-25">
+                <input class="input-style" type="email" name="e-mail" placeholder="ваш e-mail">
+            </div>
+            <div class="client-data container col-25">
+                <input class="input-style" type="text" placeholder="ваш адрес">
+            </div>
+        </div>
+        <button class="form__btn" type="submit">
+            <span class="btn__txt">заказать пиццу!</span>
+            <img class="call__img" src="img/call.png" alt="">
+        </button>
+    </form>
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
