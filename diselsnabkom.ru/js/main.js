@@ -8,10 +8,4 @@
     $('.close').on('click', function () {
         $('.callback-wrapper').hide(500)
     });
-    $('.callback-wrapper').on('click', function () {
-        console.log('dfdfd');
-
-        // $('.callback-wrapper').removeClass('active')
-        $('.callback-wrapper').hide(500)
-    })
 })(jQuery);
