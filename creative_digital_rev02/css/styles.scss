@@ -1,8 +1,5 @@
 @import "normalize.css";
-@import "bootstrap.min.css";
-@import "bootstrap-theme.min.css";
-@import "slick.css";
-@import "slick-theme.css";
+
 //@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
 
 @font-face {
@@ -180,7 +177,10 @@ ul.nav li a {
   display: none;
   text-align: center;
 }
-
+@import "bootstrap.min.css";
+@import "bootstrap-theme.min.css";
+@import "slick.css";
+@import "slick-theme.css";
 @media (max-width: 768px) {
   .about--mob {
     display: block;
