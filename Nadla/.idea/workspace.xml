@@ -48,7 +48,7 @@
           <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-617">
+                <state relative-caret-position="24300">
                   <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
                   <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
                   <caret line="261" column="23" lean-forward="false" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="23" />
@@ -254,7 +254,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../creative_digital" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -341,16 +341,17 @@
       <workItem from="1501402590985" duration="12674000" />
       <workItem from="1501433958955" duration="5722000" />
       <workItem from="1501487456724" duration="3366000" />
-      <workItem from="1501508013342" duration="1166000" />
+      <workItem from="1501508013342" duration="1759000" />
+      <workItem from="1501660201531" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155328000" />
+    <option name="totallyTimeSpent" value="156031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -381,6 +382,89 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5022">
+          <caret line="279" column="15" lean-forward="false" selection-start-line="279" selection-start-column="15" selection-end-line="331" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#p#1;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24300">
+          <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+          <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
+          <caret line="261" column="23" lean-forward="false" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="23" />
+          <caret line="302" column="21" lean-forward="false" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
+          <caret line="343" column="21" lean-forward="false" selection-start-line="343" selection-start-column="21" selection-end-line="343" selection-end-column="21" />
+          <caret line="353" column="21" lean-forward="false" selection-start-line="353" selection-start-column="21" selection-end-line="353" selection-end-column="21" />
+          <caret line="449" column="21" lean-forward="false" selection-start-line="449" selection-start-column="21" selection-end-line="449" selection-end-column="21" />
+          <caret line="479" column="21" lean-forward="false" selection-start-line="479" selection-start-column="21" selection-end-line="479" selection-end-column="21" />
+          <caret line="536" column="21" lean-forward="false" selection-start-line="536" selection-start-column="21" selection-end-line="536" selection-end-column="21" />
+          <caret line="562" column="21" lean-forward="false" selection-start-line="562" selection-start-column="21" selection-end-line="562" selection-end-column="21" />
+          <caret line="587" column="21" lean-forward="false" selection-start-line="587" selection-start-column="21" selection-end-line="587" selection-end-column="21" />
+          <caret line="765" column="18" lean-forward="false" selection-start-line="765" selection-start-column="18" selection-end-line="765" selection-end-column="18" />
+          <caret line="796" column="21" lean-forward="false" selection-start-line="796" selection-start-column="21" selection-end-line="796" selection-end-column="21" />
+          <caret line="809" column="21" lean-forward="false" selection-start-line="809" selection-start-column="21" selection-end-line="809" selection-end-column="21" />
+          <caret line="847" column="21" lean-forward="false" selection-start-line="847" selection-start-column="21" selection-end-line="847" selection-end-column="21" />
+          <caret line="856" column="21" lean-forward="false" selection-start-line="856" selection-start-column="21" selection-end-line="856" selection-end-column="21" />
+          <caret line="875" column="23" lean-forward="false" selection-start-line="875" selection-start-column="23" selection-end-line="875" selection-end-column="23" />
+          <caret line="894" column="21" lean-forward="false" selection-start-line="894" selection-start-column="21" selection-end-line="894" selection-end-column="21" />
+          <caret line="905" column="21" lean-forward="false" selection-start-line="905" selection-start-column="21" selection-end-line="905" selection-end-column="21" />
+          <caret line="920" column="21" lean-forward="false" selection-start-line="920" selection-start-column="21" selection-end-line="920" selection-end-column="21" />
+          <caret line="998" column="23" lean-forward="false" selection-start-line="998" selection-start-column="23" selection-end-line="998" selection-end-column="23" />
+          <caret line="1009" column="21" lean-forward="false" selection-start-line="1009" selection-start-column="21" selection-end-line="1009" selection-end-column="21" />
+          <caret line="1031" column="23" lean-forward="false" selection-start-line="1031" selection-start-column="23" selection-end-line="1031" selection-end-column="23" />
+          <caret line="1037" column="25" lean-forward="false" selection-start-line="1037" selection-start-column="25" selection-end-line="1037" selection-end-column="25" />
+          <caret line="1049" column="21" lean-forward="false" selection-start-line="1049" selection-start-column="21" selection-end-line="1049" selection-end-column="21" />
+          <caret line="1090" column="21" lean-forward="false" selection-start-line="1090" selection-start-column="21" selection-end-line="1090" selection-end-column="21" />
+          <caret line="1126" column="21" lean-forward="false" selection-start-line="1126" selection-start-column="21" selection-end-line="1126" selection-end-column="21" />
+          <caret line="1151" column="23" lean-forward="false" selection-start-line="1151" selection-start-column="23" selection-end-line="1151" selection-end-column="23" />
+          <caret line="1311" column="23" lean-forward="false" selection-start-line="1311" selection-start-column="23" selection-end-line="1311" selection-end-column="23" />
+          <caret line="1350" column="23" lean-forward="false" selection-start-line="1350" selection-start-column="23" selection-end-line="1350" selection-end-column="23" />
+          <folding>
+            <element signature="e#3856#4523#2" expanded="true" />
+            <element signature="e#10482#11145#2" expanded="true" />
+            <element signature="e#12025#12688#2" expanded="true" />
+            <element signature="e#31503#31553#0" expanded="false" />
+            <element signature="e#31593#31950#0" expanded="false" />
+            <element signature="e#31990#32106#0" expanded="false" />
+            <element signature="e#32146#32787#0" expanded="false" />
+            <element signature="e#32827#32888#0" expanded="false" />
+            <element signature="e#32928#34674#0" expanded="false" />
+            <element signature="e#34714#35181#0" expanded="false" />
+            <element signature="e#35220#37253#0" expanded="false" />
+            <element signature="e#37292#39323#0" expanded="false" />
+            <element signature="e#39362#39461#0" expanded="false" />
+            <element signature="e#39500#40052#0" expanded="false" />
+            <element signature="e#40091#41307#0" expanded="false" />
+            <element signature="e#41346#42772#0" expanded="false" />
+            <element signature="e#42811#43049#0" expanded="false" />
+            <element signature="e#43088#43588#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
@@ -871,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-617">
+        <state relative-caret-position="24300">
           <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
           <caret line="164" column="21" lean-forward="false" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
           <caret line="261" column="23" lean-forward="false" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="23" />
