@@ -3,7 +3,7 @@
 @import "bootstrap-theme.min.css";
 @import "slick.css";
 @import "slick-theme.css";
-//@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+
 
 @font-face {
   font-family: 'PTSansBoldItalic';
@@ -222,7 +222,7 @@ ul.nav li a {
 .about__txt {
   box-sizing: border-box;
   vertical-align: top;
-  padding-top: 60px;
+  //padding-top: 60px;
   padding-left: 10%;
   padding-right: 2%;
   max-width: 65%;
@@ -1110,6 +1110,14 @@ li.none {
 }
 
 /*test task correction*/
+.txt__table {
+  display: table;
+  height: 417px;
+}
+.txt__container {
+  display: table-cell;
+  vertical-align: middle;
+}
 .btn-show-pop-up {
   margin: 0;
   position: relative;
