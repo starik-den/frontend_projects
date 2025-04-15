@@ -887,9 +887,6 @@ li.none {
   .about__pic:hover .pic-content {
     height: 50%; }
 
-.map-form:first-child {
-  border-bottom: 5px solid #ebebeb; }
-
 #pop-up {
   display: none;
   position: fixed;
